@@ -1,0 +1,73 @@
+/* עיצוב כללי לכרטיס */
+.cardContainer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* עיצוב כללי לטופס */
+  .formCard {
+    text-align: center;
+   width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #ffffff;
+    direction: rtl;
+  }
+  
+  /* עיצוב קבוצות הקלטים */
+  .inputGroup {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .inputGroup span {
+    background-color: #e0e0e0;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  /* עיצוב שדות הקלט */
+  .inputField {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0 5px 5px 0;
+    font-size: 1rem;
+  }
+  
+  .inputField:focus {
+    outline: none;
+    border-color: #a0c4ff;
+    box-shadow: 0 0 5px #a0c4ff;
+  }
+  
+  /* עיצוב צ'קבוקסים */
+  .checkboxGroup {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .checkboxLabel {
+    margin-left: 10px;
+    font-size: 1rem;
+  }
+  
+  /* כפתור שמירה */
+  .submitButton {
+    background-color: #c8b4a9;
+    border: 1px solid #c8b4a9;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submitButton:hover {
+    background-color: #b49b8c;
+  }
+  
